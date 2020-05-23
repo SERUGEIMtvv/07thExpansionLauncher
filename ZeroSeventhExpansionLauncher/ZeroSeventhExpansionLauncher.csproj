@@ -7,7 +7,7 @@
     <ProjectGuid>{07E0C7AD-3C23-4F5C-B4DB-C5A436840252}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>ZeroSeventhExpansionLauncher</RootNamespace>
-    <AssemblyName>ZeroSeventhExpansionLauncher</AssemblyName>
+    <AssemblyName>07thExpansionLauncher</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,6 +46,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

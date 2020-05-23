@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("07thExpansionLauncher")]
-[assembly: AssemblyDescription("A launcher for all 07th Expansion When They Cry games (games not included)")]
+[assembly: AssemblyDescription("A launcher for 07th Expansion When They Cry games (games not included)")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("07thExpansionLauncher")]
