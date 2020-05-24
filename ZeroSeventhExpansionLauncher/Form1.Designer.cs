@@ -39,6 +39,7 @@
             this.buttonCic2 = new System.Windows.Forms.Button();
             this.pictureBoxCic = new System.Windows.Forms.PictureBox();
             this.tabPageUmi = new System.Windows.Forms.TabPage();
+            this.buttonUmi07T = new System.Windows.Forms.Button();
             this.buttonUmiS = new System.Windows.Forms.Button();
             this.buttonUmiH = new System.Windows.Forms.Button();
             this.buttonUmiQ = new System.Windows.Forms.Button();
@@ -171,6 +172,7 @@
             // 
             this.tabPageUmi.BackgroundImage = global::ZeroSeventhExpansionLauncher.Properties.Resources.umi_bg;
             resources.ApplyResources(this.tabPageUmi, "tabPageUmi");
+            this.tabPageUmi.Controls.Add(this.buttonUmi07T);
             this.tabPageUmi.Controls.Add(this.buttonUmiS);
             this.tabPageUmi.Controls.Add(this.buttonUmiH);
             this.tabPageUmi.Controls.Add(this.buttonUmiQ);
@@ -180,9 +182,20 @@
             this.tabPageUmi.Name = "tabPageUmi";
             this.tabPageUmi.UseVisualStyleBackColor = true;
             // 
+            // buttonUmi07T
+            // 
+            this.buttonUmi07T.BackgroundImage = global::ZeroSeventhExpansionLauncher.Properties.Resources.button_right;
+            resources.ApplyResources(this.buttonUmi07T, "buttonUmi07T");
+            this.buttonUmi07T.FlatAppearance.BorderSize = 0;
+            this.buttonUmi07T.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.buttonUmi07T.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.buttonUmi07T.Name = "buttonUmi07T";
+            this.buttonUmi07T.UseVisualStyleBackColor = true;
+            this.buttonUmi07T.Click += new System.EventHandler(this.ButtonUmi07T_Click);
+            // 
             // buttonUmiS
             // 
-            this.buttonUmiS.BackgroundImage = global::ZeroSeventhExpansionLauncher.Properties.Resources.button_center;
+            this.buttonUmiS.BackgroundImage = global::ZeroSeventhExpansionLauncher.Properties.Resources.button_left;
             resources.ApplyResources(this.buttonUmiS, "buttonUmiS");
             this.buttonUmiS.FlatAppearance.BorderSize = 0;
             this.buttonUmiS.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -405,7 +418,7 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.AliceBlue;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ControlBox = false;
             this.Controls.Add(this.buttonQuit);
             this.Controls.Add(this.buttonJa);
@@ -460,6 +473,7 @@
         private System.Windows.Forms.Button buttonHigA1;
         private System.Windows.Forms.Button buttonHigQ2;
         private System.Windows.Forms.TabControl tabControl;
+        private System.Windows.Forms.Button buttonUmi07T;
     }
 }
 

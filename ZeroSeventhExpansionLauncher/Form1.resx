@@ -229,13 +229,13 @@
     <value>Flat</value>
   </data>
   <data name="buttonCic4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>90, 395</value>
+    <value>190, 395</value>
   </data>
   <data name="buttonCic4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="buttonCic4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>550, 40</value>
+    <value>350, 40</value>
   </data>
   <data name="buttonCic4.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -262,19 +262,20 @@
     <value>Flat</value>
   </data>
   <data name="buttonCic1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>90, 200</value>
+    <value>190, 200</value>
   </data>
   <data name="buttonCic1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="buttonCic1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>550, 40</value>
+    <value>350, 40</value>
   </data>
   <data name="buttonCic1.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
   <data name="buttonCic1.Text" xml:space="preserve">
-    <value>Phase 1 - For You, the Replaceable Ones</value>
+    <value>Phase 1
+~For You, the Replaceable Ones~</value>
   </data>
   <data name="&gt;&gt;buttonCic1.Name" xml:space="preserve">
     <value>buttonCic1</value>
@@ -295,13 +296,13 @@
     <value>Flat</value>
   </data>
   <data name="buttonCic3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>90, 330</value>
+    <value>190, 330</value>
   </data>
   <data name="buttonCic3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="buttonCic3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>550, 40</value>
+    <value>350, 40</value>
   </data>
   <data name="buttonCic3.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -328,13 +329,13 @@
     <value>Flat</value>
   </data>
   <data name="buttonCic2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>90, 265</value>
+    <value>190, 265</value>
   </data>
   <data name="buttonCic2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="buttonCic2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>550, 40</value>
+    <value>350, 40</value>
   </data>
   <data name="buttonCic2.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -1702,6 +1703,43 @@
   <data name="tabPageUmi.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
+  <data name="buttonUmi07T.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="buttonUmi07T.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="buttonUmi07T.Location" type="System.Drawing.Point, System.Drawing">
+    <value>381, 460</value>
+  </data>
+  <data name="buttonUmi07T.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="buttonUmi07T.Size" type="System.Drawing.Size, System.Drawing">
+    <value>350, 40</value>
+  </data>
+  <data name="buttonUmi07T.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="buttonUmi07T.Text" xml:space="preserve">
+    <value>                  Part 6 - Umineko no Naku Koro ni Saku
+                                   Omake Special ~07th Theater~</value>
+  </data>
+  <data name="buttonUmi07T.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;buttonUmi07T.Name" xml:space="preserve">
+    <value>buttonUmi07T</value>
+  </data>
+  <data name="&gt;&gt;buttonUmi07T.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonUmi07T.Parent" xml:space="preserve">
+    <value>tabPageUmi</value>
+  </data>
+  <data name="&gt;&gt;buttonUmi07T.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="buttonUmiS.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
@@ -1709,20 +1747,23 @@
     <value>Flat</value>
   </data>
   <data name="buttonUmiS.Location" type="System.Drawing.Point, System.Drawing">
-    <value>175, 460</value>
+    <value>0, 395</value>
   </data>
   <data name="buttonUmiS.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="buttonUmiS.Size" type="System.Drawing.Size, System.Drawing">
-    <value>380, 40</value>
+    <value>350, 40</value>
   </data>
   <data name="buttonUmiS.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
   <data name="buttonUmiS.Text" xml:space="preserve">
-    <value>Part 5 - Umineko no Naku Koro ni Saku
-~Bloom~</value>
+    <value>     Part 5 - Umineko no Naku Koro ni Saku
+                   ~Bloom~</value>
+  </data>
+  <data name="buttonUmiS.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="&gt;&gt;buttonUmiS.Name" xml:space="preserve">
     <value>buttonUmiS</value>
@@ -1734,7 +1775,7 @@
     <value>tabPageUmi</value>
   </data>
   <data name="&gt;&gt;buttonUmiS.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="buttonUmiH.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -1771,7 +1812,7 @@
     <value>tabPageUmi</value>
   </data>
   <data name="&gt;&gt;buttonUmiH.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="buttonUmiQ.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -1783,7 +1824,7 @@
     <value>NoControl</value>
   </data>
   <data name="buttonUmiQ.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 200</value>
+    <value>0, 135</value>
   </data>
   <data name="buttonUmiQ.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -1811,7 +1852,7 @@
     <value>tabPageUmi</value>
   </data>
   <data name="&gt;&gt;buttonUmiQ.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="buttonUmiT.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -1820,7 +1861,7 @@
     <value>Flat</value>
   </data>
   <data name="buttonUmiT.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 330</value>
+    <value>0, 265</value>
   </data>
   <data name="buttonUmiT.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -1848,7 +1889,7 @@
     <value>tabPageUmi</value>
   </data>
   <data name="&gt;&gt;buttonUmiT.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="buttonUmiA.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -1885,7 +1926,7 @@
     <value>tabPageUmi</value>
   </data>
   <data name="&gt;&gt;buttonUmiA.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="pictureBoxUmi.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3687,7 +3728,7 @@
     <value>tabPageUmi</value>
   </data>
   <data name="&gt;&gt;pictureBoxUmi.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="tabPageUmi.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 4</value>

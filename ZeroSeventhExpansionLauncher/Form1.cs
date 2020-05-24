@@ -54,6 +54,7 @@ namespace ZeroSeventhExpansionLauncher
         private void ButtonCic2_Click(object sender, EventArgs e) => Process.Start(ConfigurationManager.AppSettings["Cic2_exe"]);
         private void ButtonCic3_Click(object sender, EventArgs e) => Process.Start(ConfigurationManager.AppSettings["Cic3_exe"]);
         private void ButtonCic4_Click(object sender, EventArgs e) => Process.Start(ConfigurationManager.AppSettings["Cic4_exe"]);
+        private void ButtonUmi07T_Click(object sender, EventArgs e) => Process.Start(ConfigurationManager.AppSettings["Umi07T_exe"]);
         private void ButtonQuit_Click(object sender, EventArgs e) => Process.GetCurrentProcess().Kill();
         private void ButtonEng_Click(object sender, EventArgs e)
         {

@@ -1427,8 +1427,12 @@
   <data name="tabPageCic.Text" xml:space="preserve">
     <value>                                キコニア                                </value>
   </data>
+  <data name="buttonUmi07T.Text" xml:space="preserve">
+    <value>                                                  第6章 - うみねこのなく頃に咲
+                                         オマケシナリオ『07th_theater』</value>
+  </data>
   <data name="buttonUmiS.Text" xml:space="preserve">
-    <value>第5章 - うみねこのなく頃に咲</value>
+    <value>     第5章 - うみねこのなく頃に咲</value>
   </data>
   <data name="buttonUmiH.Text" xml:space="preserve">
     <value>                                                  第4章 - うみねこのなく頃に羽</value>
