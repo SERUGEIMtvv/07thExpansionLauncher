@@ -1,0 +1,186 @@
+﻿<Window x:Class="LaunchernoNakuKoroni.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LaunchernoNakuKoroni"
+        mc:Ignorable="d"
+        Icon="icon.ico" Title="Launcher no Naku Koro ni"
+        WindowStartupLocation="CenterScreen" WindowStyle="SingleBorderWindow"
+        FontFamily="/AssemblyNamespace;component/#Honoka Antique-Kaku"
+        HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+        ResizeMode="NoResize" SizeToContent="WidthAndHeight" 
+        Margin="0,0,0,0" Padding="0,0,0,0" BorderThickness="0,0,0,0">
+    <Grid x:Name="MainGrid" 
+          HorizontalAlignment="Center" VerticalAlignment="Center"
+          Margin="0,0,0,0">
+        <TabControl x:Name="chapterselect" 
+                    TabStripPlacement="Bottom" 
+                    HorizontalAlignment="Center" VerticalAlignment="Center"
+                    Margin="0,0,0,0" Padding="0,0,0,0" BorderThickness="0,0,0,0">
+            <TabItem x:Name="TabHig" Style="{DynamicResource TabCh}">
+                <TabItem.Header>
+                    <Image Source="hig_logo.png" Stretch="UniformToFill"/>
+                </TabItem.Header>
+                <Grid x:Name="GridHig"  Style="{DynamicResource GridCh}">
+                    <Grid.Background>
+                        <ImageBrush ImageSource="hig_bg.png" Stretch="UniformToFill"/>
+                    </Grid.Background>
+                    <StackPanel x:Name="StackHigLeft" HorizontalAlignment="Left" Height="480" VerticalAlignment="Center" Width="320">
+                        <Button x:Name="buttonHigQ1" Style="{DynamicResource ButtonEnCenter}" Click="ButtonHigQ1_Click">
+                            <StackPanel>
+                                <TextBlock Style="{DynamicResource Text}" Text="Part 1 - Onikakushi-hen"/>
+                                <TextBlock Style="{DynamicResource Text}" Text="~Demoned Away Chapter~"/>
+                            </StackPanel>
+                        </Button>
+                        <Button x:Name="buttonHigQ3" Style="{DynamicResource ButtonEnCenter}" Click="ButtonHigQ3_Click">
+                            <StackPanel>
+                                <TextBlock Style="{DynamicResource Text}" Text="Part 3 - Tatarigoroshi-hen"/>
+                                <TextBlock Style="{DynamicResource Text}" Text="~Curse Killing Chapter~"/>
+                            </StackPanel>
+                        </Button>
+                        <Button x:Name="buttonHigA1" Style="{DynamicResource ButtonEnCenter}" Click="ButtonHigA1_Click">
+                            <StackPanel>
+                                <TextBlock Style="{DynamicResource Text}" Text="Part 5 - Meakashi-hen"/>
+                                <TextBlock Style="{DynamicResource Text}" Text="~Eye Opening Chapter~"/>
+                            </StackPanel>
+                        </Button>
+                        <Button x:Name="buttonHigA3" Style="{DynamicResource ButtonEnCenter}" Click="ButtonHigA3_Click">
+                            <StackPanel>
+                                <TextBlock Style="{DynamicResource Text}" Text="Part 7 - Minagoroshi-hen"/>
+                                <TextBlock Style="{DynamicResource Text}" Text="~Massacre Chapter~"/>
+                            </StackPanel>
+                        </Button>
+                        <Button x:Name="buttonHigRei" Style="{DynamicResource ButtonEnCenter}" Click="ButtonHigRei_Click">
+                            <StackPanel>
+                                <TextBlock Style="{DynamicResource Text}" Text="Part 9 - Higurashi no Naku Koro ni Rei"/>
+                                <TextBlock Style="{DynamicResource Text}" Text="~Gratitudes~"/>
+                            </StackPanel>
+                        </Button>
+                    </StackPanel>
+                    <StackPanel x:Name="StackHigRight" HorizontalAlignment="Right" Height="480" VerticalAlignment="Center" Width="320">
+                        <Button x:Name="buttonHigQ2" Style="{DynamicResource ButtonEnCenter}" Click="ButtonHigQ2_Click">
+                            <StackPanel>
+                                <TextBlock Style="{DynamicResource Text}" Text="Part 2 - Watanagashi-hen"/>
+                                <TextBlock Style="{DynamicResource Text}" Text="~Cotton Drifting Chapter~"/>
+                            </StackPanel>
+                        </Button>
+                        <Button x:Name="buttonHigQ4" Style="{DynamicResource ButtonEnCenter}" Click="ButtonHigQ4_Click">
+                            <StackPanel>
+                                <TextBlock Style="{DynamicResource Text}" Text="Part 4 - Himatsubushi-hen"/>
+                                <TextBlock Style="{DynamicResource Text}" Text="~Time Killing Chapter~"/>
+                            </StackPanel>
+                        </Button>
+                        <Button x:Name="buttonHigA2" Style="{DynamicResource ButtonEnCenter}" Click="ButtonHigA2_Click">
+                            <StackPanel>
+                                <TextBlock Style="{DynamicResource Text}" Text="Part 6 - Tsumihoroboshi-hen"/>
+                                <TextBlock Style="{DynamicResource Text}" Text="~Atonement Chapter~"/>
+                            </StackPanel>
+                        </Button>
+                        <Button x:Name="buttonHigA4" Style="{DynamicResource ButtonEnCenter}" Click="ButtonHigA4_Click">
+                            <StackPanel>
+                                <TextBlock Style="{DynamicResource Text}" Text="Part 8 - Matsuribayashi-hen"/>
+                                <TextBlock Style="{DynamicResource Text}" Text="~Festival Accompanying Chapter~"/>
+                            </StackPanel>
+                        </Button>
+                        <Button x:Name="buttonHigHou" Style="{DynamicResource ButtonEnCenter}" Click="ButtonHigHou_Click">
+                            <StackPanel>
+                                <TextBlock Style="{DynamicResource Text}" Text="Part 10 - Higurashi no Naku Koro ni Hō"/>
+                                <TextBlock Style="{DynamicResource Text}" Text="~Gift~"/>
+                            </StackPanel>
+                        </Button>
+                    </StackPanel>
+                    <StackPanel x:Name="StackHigCenter" HorizontalAlignment="Center" Height="93" VerticalAlignment="Bottom" Width="640">
+                        <Button x:Name="buttonHigCon" Style="{DynamicResource ButtonEnCenter}" Click="ButtonHigCon_Click">
+                            <StackPanel>
+                                <TextBlock Style="{DynamicResource Text}" Text="Console Arcs"/>
+                                <TextBlock Style="{DynamicResource Text}" Text="~Matsuri, Kizuna, etc.~"/>
+                            </StackPanel>
+                        </Button>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="TabUmi" Style="{DynamicResource TabCh}">
+                <TabItem.Header>
+                    <Image Source="umi_logo.png" Stretch="UniformToFill"/>
+                </TabItem.Header>
+                <Grid x:Name="GridUmi" Style="{DynamicResource GridCh}">
+                    <Grid.Background>
+                        <ImageBrush ImageSource="umi_bg.png" Stretch="UniformToFill"/>
+                    </Grid.Background>
+                    <StackPanel x:Name="StackUmi" HorizontalAlignment="Center" Height="480" VerticalAlignment="Bottom" Width="640">
+                        <Button x:Name="buttonUmiQ" Style="{DynamicResource ButtonEnCenter}" Click="ButtonUmiQ_Click">
+                            <StackPanel>
+                                <TextBlock Style="{DynamicResource Text}" Text="Part 1 - Umineko no Naku Koro ni"/>
+                                <TextBlock Style="{DynamicResource Text}" Text="~Question~"/>
+                            </StackPanel>
+                        </Button>
+                         <Button x:Name="buttonUmiA" Style="{DynamicResource ButtonEnCenter}" Click="ButtonUmiA_Click">
+                            <StackPanel>
+                                <TextBlock Style="{DynamicResource Text}" Text="Part 2 - Umineko no Naku Koro ni Chiru"/>
+                                <TextBlock Style="{DynamicResource Text}" Text="~Scattering~"/>
+                            </StackPanel>
+                        </Button>
+                       <Button x:Name="buttonUmiT" Style="{DynamicResource ButtonEnCenter}" Click="ButtonUmiT_Click">
+                            <StackPanel>
+                                <TextBlock Style="{DynamicResource Text}" Text="Part 3 - Umineko no Naku Koro ni Tsubasa"/>
+                                <TextBlock Style="{DynamicResource Text}" Text="~Wings~"/>
+                            </StackPanel>
+                        </Button>
+                        <Button x:Name="buttonUmiH" Style="{DynamicResource ButtonEnCenter}" Click="ButtonUmiH_Click">
+                            <StackPanel>
+                                <TextBlock Style="{DynamicResource Text}" Text="Part 4 - Umineko no Naku Koro ni Hane"/>
+                                <TextBlock Style="{DynamicResource Text}" Text="~Feathers~"/>
+                            </StackPanel>
+                        </Button>
+                        <Button x:Name="buttonUmiS" Style="{DynamicResource ButtonEnCenter}" Click="ButtonUmiS_Click">
+                            <StackPanel>
+                                <TextBlock Style="{DynamicResource Text}" Text="Part 5 - Umineko no Naku Koro ni Saku"/>
+                                <TextBlock Style="{DynamicResource Text}" Text="~Bloom~"/>
+                            </StackPanel>
+                        </Button>
+                        <Button x:Name="buttonUmi07T" Style="{DynamicResource ButtonEnCenter}" Click="ButtonUmi07T_Click">
+                            <StackPanel>
+                                <TextBlock Style="{DynamicResource Text}" Text="Part 6 - Umineko no Naku Koro ni Saku"/>
+                                <TextBlock Style="{DynamicResource Text}" Text="Omake Special ~07th Theater~"/>
+                            </StackPanel>
+                        </Button>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="TabCic" Style="{DynamicResource TabCh}">
+                <TabItem.Header>
+                    <Image Source="cic_logo.png" Stretch="UniformToFill"/>
+                </TabItem.Header>
+                <Grid x:Name="GridCic" Style="{DynamicResource GridCh}">
+                    <Grid.Background>
+                        <ImageBrush ImageSource="cic_bg.png" Stretch="UniformToFill"/>
+                    </Grid.Background>
+                    <StackPanel x:Name="StackCic" HorizontalAlignment="Center" Height="400" VerticalAlignment="Bottom" Width="640">
+                        <Button x:Name="buttonCic1" Style="{DynamicResource ButtonEnCenter}" Click="ButtonCic1_Click">
+                            <StackPanel>
+                                <TextBlock Style="{DynamicResource Text}" Text="Phase 1"/>
+                                <TextBlock Style="{DynamicResource Text}" Text="~For You, the Replaceable Ones~"/>
+                            </StackPanel>
+                        </Button>
+                        <Button x:Name="buttonCic2" Style="{DynamicResource ButtonEnCenter}" Click="ButtonCic2_Click">
+                            <StackPanel>
+                                <TextBlock Style="{DynamicResource Text}" Text="~Coming soon~"/>
+                            </StackPanel>
+                        </Button>
+                        <Button x:Name="buttonCic3" Style="{DynamicResource ButtonEnCenter}" Click="ButtonCic3_Click">
+                            <StackPanel>
+                                <TextBlock Style="{DynamicResource Text}" Text="~Coming soon~"/>
+                            </StackPanel>
+                        </Button>
+                        <Button x:Name="buttonCic4" Style="{DynamicResource ButtonEnCenter}" Click="ButtonCic4_Click">
+                            <StackPanel>
+                                <TextBlock Style="{DynamicResource Text}" Text="~Coming soon~"/>
+                            </StackPanel>
+                        </Button>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
