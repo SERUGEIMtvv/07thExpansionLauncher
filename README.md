@@ -2,7 +2,15 @@
 A launcher for 07th Expansion When They Cry games (games not included)
 
 # How to use:
-- download the latest release;
+- download the latest release (2.0 and above);
+- unzip all fies to any place on the computer;
+- open Launcher no Naku Koro ni.exe.config and fill in the paths to your games' exe files (for Steam releases use "steam://rungameid/(yourgameid)" instead);
+- - I recommend to use the link to Windows Notepad or something as harmless for the games you don't have.
+- create a shortcut for the Launcher no Naku Koro ni.exe and put it wherever you want;
+- Enjoy having just one shortcut instead of 20.
+
+# How to use (ZeroSeventhExpansionLauncher version):
+- download the latest release (1.2);
 - unzip all fies to any place on the computer;
 - open 07thExpansionLauncher.exe.config and fill in the paths to your games' exe files (for Steam releases use "steam://rungameid/(yourgameid)" instead);
 - - I recommend to use the link to Windows Notepad or something as harmless for the games you don't have.
