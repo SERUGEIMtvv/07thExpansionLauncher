@@ -1,19 +1,15 @@
-# 07thExpansionLauncher
-A launcher for 07th Expansion When They Cry games (games not included)
+# Launcher no Naku Koro ni
+A launcher for 07th Expansion's When They Cry games (games not included).
 
 # How to use:
-- download the latest release (2.0 and above);
+- download the latest release with desired language (the default one is in English);
 - unzip all fies to any place on the computer;
-- open Launcher no Naku Koro ni.exe.config and fill in the paths to your games' exe files (for Steam releases use "steam://rungameid/(yourgameid)" instead);
-- - I recommend to use the link to Windows Notepad or something as harmless for the games you don't have.
-- create a shortcut for the Launcher no Naku Koro ni.exe and put it wherever you want;
-- Enjoy having just one shortcut instead of 20.
+- open the *.exe.config file and fill in the paths to your games' exe files, minding the quote marks in strings;
+- - for Steam releases use "steam://rungameid/(yourgameid)" instead;
+- create a shortcut for the *.exe and put it wherever you want;
+- Enjoy having just one shortcut instead of 20ish for each game.
 
-# How to use (ZeroSeventhExpansionLauncher version):
-- download the latest release (1.2);
-- unzip all fies to any place on the computer;
-- open 07thExpansionLauncher.exe.config and fill in the paths to your games' exe files (for Steam releases use "steam://rungameid/(yourgameid)" instead);
-- - I recommend to use the link to Windows Notepad or something as harmless for the games you don't have.
-- (optional) install the Honoka Antique Kaku font (included) for the best experience, since the interface was designed using this font;
-- create a shortcut for the 07thExpansionLauncher.exe and put it wherever you want;
-- Enjoy having just one shortcut instead of 20.
+# TODO
+- multi-language version;
+- check Japanese text with someone who knows the language;
+- translate the error messages with the same person.
