@@ -1,9 +1,9 @@
-﻿<Window x:Class="LaunchernoNakuKoroni.MainWindow"
+﻿<Window x:Class="LaunchernoNakuKoroniJa.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:res="clr-namespace:LaunchernoNakuKoroni.Properties"
+        xmlns:res="clr-namespace:LaunchernoNakuKoroniJa.Properties"
         mc:Ignorable="d"
         Icon="icon.ico"
         WindowStartupLocation="CenterScreen" WindowStyle="SingleBorderWindow"
@@ -20,7 +20,7 @@
                     Margin="0,0,0,0" Padding="0,0,0,0" BorderThickness="0,0,0,0">
             <TabItem x:Name="TabHig" Style="{DynamicResource TabCh}">
                 <TabItem.Header>
-                    <Image Source="hig_logo.png"  Stretch="UniformToFill"/>
+                    <Image Source="hig_logo_ja.png"  Stretch="UniformToFill"/>
                 </TabItem.Header>
                 <Grid x:Name="GridHig"  Style="{DynamicResource GridCh}">
                     <Grid.Background>
@@ -30,35 +30,35 @@
                                 Height="480" Width="320" 
                                 HorizontalAlignment="Left" VerticalAlignment="Center" >
                         <Button x:Name="buttonHigQ1" Click="ButtonHigQ1_Click" 
-                                Style="{DynamicResource ButtonEnCenter}" >
+                                Style="{DynamicResource ButtonJaCenter}" >
                             <StackPanel>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.HigQ1TB1}"/>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.HigQ1TB2}"/>
                             </StackPanel>
                         </Button>
                         <Button x:Name="buttonHigQ3" Click="ButtonHigQ3_Click"
-                                Style="{DynamicResource ButtonEnCenter}" >
+                                Style="{DynamicResource ButtonJaCenter}" >
                             <StackPanel>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.HigQ3TB1}"/>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.HigQ3TB2}"/>
                             </StackPanel>
                         </Button>
                         <Button x:Name="buttonHigA1" Click="ButtonHigA1_Click"
-                                Style="{DynamicResource ButtonEnCenter}" >
+                                Style="{DynamicResource ButtonJaCenter}" >
                             <StackPanel>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.HigA1TB1}"/>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.HigA1TB2}"/>
                             </StackPanel>
                         </Button>
                         <Button x:Name="buttonHigA3" Click="ButtonHigA3_Click"
-                                Style="{DynamicResource ButtonEnCenter}" >
+                                Style="{DynamicResource ButtonJaCenter}" >
                             <StackPanel>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.HigA3TB1}"/>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.HigA3TB2}"/>
                             </StackPanel>
                         </Button>
                         <Button x:Name="buttonHigRei" Click="ButtonHigRei_Click"
-                                Style="{DynamicResource ButtonEnCenter}" >
+                                Style="{DynamicResource ButtonJaCenter}" >
                             <StackPanel>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.HigReiTB1}"/>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.HigReiTB2}"/>
@@ -69,35 +69,35 @@
                                 Height="480" Width="320"
                                 HorizontalAlignment="Right" VerticalAlignment="Center" >
                         <Button x:Name="buttonHigQ2" Click="ButtonHigQ2_Click"
-                                Style="{DynamicResource ButtonEnCenter}" >
+                                Style="{DynamicResource ButtonJaCenter}" >
                             <StackPanel>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.HigQ2TB1}"/>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.HigQ2TB2}"/>
                             </StackPanel>
                         </Button>
                         <Button x:Name="buttonHigQ4" Click="ButtonHigQ4_Click"
-                                Style="{DynamicResource ButtonEnCenter}" >
+                                Style="{DynamicResource ButtonJaCenter}" >
                             <StackPanel>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.HigQ4TB1}"/>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.HigQ4TB2}"/>
                             </StackPanel>
                         </Button>
                         <Button x:Name="buttonHigA2" Click="ButtonHigA2_Click"
-                                Style="{DynamicResource ButtonEnCenter}" >
+                                Style="{DynamicResource ButtonJaCenter}" >
                             <StackPanel>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.HigA2TB1}"/>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.HigA2TB2}"/>
                             </StackPanel>
                         </Button>
                         <Button x:Name="buttonHigA4" Click="ButtonHigA4_Click"
-                                Style="{DynamicResource ButtonEnCenter}" >
+                                Style="{DynamicResource ButtonJaCenter}" >
                             <StackPanel>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.HigA4TB1}"/>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.HigA4TB2}"/>
                             </StackPanel>
                         </Button>
                         <Button x:Name="buttonHigHou" Click="ButtonHigHou_Click"
-                                Style="{DynamicResource ButtonEnCenter}" >
+                                Style="{DynamicResource ButtonJaCenter}" >
                             <StackPanel>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.HigHouTB1}"/>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.HigHouTB2}"/>
@@ -108,7 +108,7 @@
                                 Height="93" Width="640"
                                 HorizontalAlignment="Center" VerticalAlignment="Bottom" >
                         <Button x:Name="buttonHigCon" Click="ButtonHigCon_Click"
-                                Style="{DynamicResource ButtonEnCenter}" >
+                                Style="{DynamicResource ButtonJaCenter}" >
                             <StackPanel>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.HigConTB1}"/>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.HigConTB2}"/>
@@ -119,7 +119,7 @@
             </TabItem>
             <TabItem x:Name="TabUmi" Style="{DynamicResource TabCh}">
                 <TabItem.Header>
-                    <Image Source="umi_logo.png" Stretch="UniformToFill"/>
+                    <Image Source="umi_logo_ja.png" Stretch="UniformToFill"/>
                 </TabItem.Header>
                 <Grid x:Name="GridUmi" Style="{DynamicResource GridCh}">
                     <Grid.Background>
@@ -129,42 +129,42 @@
                                 Height="480" Width="640"
                                 HorizontalAlignment="Center" VerticalAlignment="Bottom" >
                         <Button x:Name="buttonUmiQ" Click="ButtonUmiQ_Click"
-                                Style="{DynamicResource ButtonEnCenter}" >
+                                Style="{DynamicResource ButtonJaCenter}" >
                             <StackPanel>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.UmiQTB1}"/>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.UmiQTB2}"/>
                             </StackPanel>
                         </Button>
                         <Button x:Name="buttonUmiC" Click="ButtonUmiC_Click"
-                                Style="{DynamicResource ButtonEnCenter}" >
+                                Style="{DynamicResource ButtonJaCenter}" >
                             <StackPanel>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.UmiCTB1}"/>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.UmiCTB2}"/>
                             </StackPanel>
                         </Button>
                         <Button x:Name="buttonUmiT" Click="ButtonUmiT_Click"
-                                Style="{DynamicResource ButtonEnCenter}" >
+                                Style="{DynamicResource ButtonJaCenter}" >
                             <StackPanel>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.UmiTTB1}"/>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.UmiTTB2}"/>
                             </StackPanel>
                         </Button>
                         <Button x:Name="buttonUmiH" Click="ButtonUmiH_Click"
-                                Style="{DynamicResource ButtonEnCenter}" >
+                                Style="{DynamicResource ButtonJaCenter}" >
                             <StackPanel>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.UmiHTB1}"/>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.UmiHTB2}"/>
                             </StackPanel>
                         </Button>
                         <Button x:Name="buttonUmiS" Click="ButtonUmiS_Click"
-                                Style="{DynamicResource ButtonEnCenter}" >
+                                Style="{DynamicResource ButtonJaCenter}" >
                             <StackPanel>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.UmiSTB1}"/>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.UmiSTB2}"/>
                             </StackPanel>
                         </Button>
                         <Button x:Name="buttonUmi07T" Click="ButtonUmi07T_Click"
-                                Style="{DynamicResource ButtonEnCenter}" >
+                                Style="{DynamicResource ButtonJaCenter}" >
                             <StackPanel>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.Umi07TTB1}"/>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.Umi07TTB2}"/>
@@ -175,7 +175,7 @@
             </TabItem>
             <TabItem x:Name="TabCic" Style="{DynamicResource TabCh}">
                 <TabItem.Header>
-                    <Image Source="cic_logo.png" Stretch="UniformToFill"/>
+                    <Image Source="cic_logo_ja.png" Stretch="UniformToFill"/>
                 </TabItem.Header>
                 <Grid x:Name="GridCic" Style="{DynamicResource GridCh}">
                     <Grid.Background>
@@ -185,28 +185,28 @@
                                 Height="400" Width="640"
                                 HorizontalAlignment="Center" VerticalAlignment="Bottom" >
                         <Button x:Name="buttonCic1" Click="ButtonCic1_Click"
-                                Style="{DynamicResource ButtonEnCenter}" >
+                                Style="{DynamicResource ButtonJaCenter}" >
                             <StackPanel>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.Cic1TB1}"/>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.Cic1TB2}"/>
                             </StackPanel>
                         </Button>
                         <Button x:Name="buttonCic2" Click="ButtonCic2_Click"
-                                Style="{DynamicResource ButtonEnCenter}" >
+                                Style="{DynamicResource ButtonJaCenter}" >
                             <StackPanel>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.Cic2TB1}"/>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.Cic2TB2}"/>
                             </StackPanel>
                         </Button>
                         <Button x:Name="buttonCic3" Click="ButtonCic3_Click"
-                                Style="{DynamicResource ButtonEnCenter}" >
+                                Style="{DynamicResource ButtonJaCenter}" >
                             <StackPanel>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.Cic3TB1}"/>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.Cic3TB2}"/>
                             </StackPanel>
                         </Button>
                         <Button x:Name="buttonCic4" Click="ButtonCic4_Click"
-                                Style="{DynamicResource ButtonEnCenter}" >
+                                Style="{DynamicResource ButtonJaCenter}" >
                             <StackPanel>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.Cic4TB1}"/>
                                 <TextBlock Style="{DynamicResource Text}" Text="{x:Static res:Resources.Cic4TB2}"/>

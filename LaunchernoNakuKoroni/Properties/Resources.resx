@@ -117,71 +117,157 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Cic1_exe" xml:space="preserve">
-    <value>Ciconia1\ciconia_phase1.exe</value>
+  <data name="CantFindGame" xml:space="preserve">
+    <value>Error: Game couldn't be found at the existing path.
+
+Please check if the path is correct in
+Launcher no Naku Koro ni.exe.config.</value>
   </data>
-  <data name="Cic2_exe" xml:space="preserve">
-    <value>C:\Windows\notepad.exe</value>
+  <data name="CantFindGameTitle" xml:space="preserve">
+    <value>Game path incorrect</value>
   </data>
-  <data name="Cic3_exe" xml:space="preserve">
-    <value>C:\Windows\notepad.exe</value>
+  <data name="CantFindPath" xml:space="preserve">
+    <value>Error: Can't find game's path in
+Launcher no Naku Koro ni.exe.config!
+
+Please make sure it is properly defined.</value>
   </data>
-  <data name="Cic4_exe" xml:space="preserve">
-    <value>C:\Windows\notepad.exe</value>
+  <data name="CantFindPathTitle" xml:space="preserve">
+    <value>Game not in app settings</value>
   </data>
-  <data name="HigA1_exe" xml:space="preserve">
-    <value>Higurashi5to8\HigurashiEp05.exe</value>
+  <data name="Cic1TB1" xml:space="preserve">
+    <value>Phase 1</value>
   </data>
-  <data name="HigA2_exe" xml:space="preserve">
-    <value>Higurashi5to8\HigurashiEp06.exe</value>
+  <data name="Cic1TB2" xml:space="preserve">
+    <value>~For You, the Replaceable Ones~</value>
   </data>
-  <data name="HigA3_exe" xml:space="preserve">
-    <value>Higurashi5to8\HigurashiEp07.exe</value>
+  <data name="Cic2TB1" xml:space="preserve">
+    <value>Phase 2</value>
   </data>
-  <data name="HigA4_exe" xml:space="preserve">
-    <value>Higurashi5to8\HigurashiEp08.exe</value>
+  <data name="Cic2TB2" xml:space="preserve">
+    <value>~Coming soon~</value>
   </data>
-  <data name="HigCon_exe" xml:space="preserve">
-    <value>C:\Windows\notepad.exe</value>
+  <data name="Cic3TB1" xml:space="preserve">
+    <value>Phase 3</value>
   </data>
-  <data name="HigHou_exe" xml:space="preserve">
-    <value>C:\Windows\notepad.exe</value>
+  <data name="Cic3TB2" xml:space="preserve">
+    <value>~Coming soon~</value>
   </data>
-  <data name="HigQ1_exe" xml:space="preserve">
-    <value>Higurashi1to4\HigurashiEp01.exe</value>
+  <data name="Cic4TB1" xml:space="preserve">
+    <value>Phase 4</value>
   </data>
-  <data name="HigQ2_exe" xml:space="preserve">
-    <value>Higurashi1to4\HigurashiEp02.exe</value>
+  <data name="Cic4TB2" xml:space="preserve">
+    <value>~Coming soon~</value>
   </data>
-  <data name="HigQ3_exe" xml:space="preserve">
-    <value>Higurashi1to4\HigurashiEp03.exe</value>
+  <data name="HigA1TB1" xml:space="preserve">
+    <value>Part 5 - Meakashi-hen</value>
   </data>
-  <data name="HigQ4_exe" xml:space="preserve">
-    <value>Higurashi1to4\HigurashiEp04.exe</value>
+  <data name="HigA1TB2" xml:space="preserve">
+    <value>~Eye Opening Chapter~</value>
   </data>
-  <data name="HigRei_exe" xml:space="preserve">
-    <value>HigurashiRei\onscripter-en.exe</value>
+  <data name="HigA2TB1" xml:space="preserve">
+    <value>Part 6 - Tsumihoroboshi-hen</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="HigA2TB2" xml:space="preserve">
+    <value>~Atonement Chapter~</value>
   </data>
-  <data name="Umi07T_exe" xml:space="preserve">
-    <value>C:\Windows\notepad.exe</value>
+  <data name="HigA3TB1" xml:space="preserve">
+    <value>Part 7 - Minagoroshi-hen</value>
   </data>
-  <data name="UmiA_exe" xml:space="preserve">
-    <value>Umineko5to8\Umineko5to8.exe</value>
+  <data name="HigA3TB2" xml:space="preserve">
+    <value>~Massacre Chapter~</value>
   </data>
-  <data name="UmiH_exe" xml:space="preserve">
-    <value>UminekoHane\en\Umineko no Naku Koro ni Hane.exe</value>
+  <data name="HigA4TB1" xml:space="preserve">
+    <value>Part 8 - Matsuribayashi-hen</value>
   </data>
-  <data name="UmiQ_exe" xml:space="preserve">
-    <value>Umineko1to4\Umineko1to4.exe</value>
+  <data name="HigA4TB2" xml:space="preserve">
+    <value>~Festival Accompanying Chapter~</value>
   </data>
-  <data name="UmiS_exe" xml:space="preserve">
-    <value>C:\Windows\notepad.exe</value>
+  <data name="HigConTB1" xml:space="preserve">
+    <value>Console Arcs</value>
   </data>
-  <data name="UmiT_exe" xml:space="preserve">
-    <value>UminekoTsubasa\en\UminekoTsubasa Patch.exe</value>
+  <data name="HigConTB2" xml:space="preserve">
+    <value>~Matsuri, Kizuna, etc.~</value>
+  </data>
+  <data name="HigHouTB1" xml:space="preserve">
+    <value>Part 10 - Higurashi Hō</value>
+  </data>
+  <data name="HigHouTB2" xml:space="preserve">
+    <value>~Gift~</value>
+  </data>
+  <data name="HigQ1TB1" xml:space="preserve">
+    <value>Part 1 - Onikakushi-hen</value>
+  </data>
+  <data name="HigQ1TB2" xml:space="preserve">
+    <value>~Demoned Away Chapter~</value>
+  </data>
+  <data name="HigQ2TB1" xml:space="preserve">
+    <value>Part 2 - Watanagashi-hen</value>
+  </data>
+  <data name="HigQ2TB2" xml:space="preserve">
+    <value>~Cotton Drifting Chapter~</value>
+  </data>
+  <data name="HigQ3TB1" xml:space="preserve">
+    <value>Part 3 - Tatarigoroshi-hen</value>
+  </data>
+  <data name="HigQ3TB2" xml:space="preserve">
+    <value>~Curse Killing Chapter~</value>
+  </data>
+  <data name="HigQ4TB1" xml:space="preserve">
+    <value>Part 4 - Himatsubushi-hen</value>
+  </data>
+  <data name="HigQ4TB2" xml:space="preserve">
+    <value>~Time Killing Chapter~</value>
+  </data>
+  <data name="HigReiTB1" xml:space="preserve">
+    <value>Part 9 - Higurashi Rei</value>
+  </data>
+  <data name="HigReiTB2" xml:space="preserve">
+    <value>~Gratitudes~</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Launcher no Naku Koro ni</value>
+  </data>
+  <data name="Umi07TTB1" xml:space="preserve">
+    <value>Umineko Saku</value>
+  </data>
+  <data name="Umi07TTB2" xml:space="preserve">
+    <value>Omake Special ~07th Theater~</value>
+  </data>
+  <data name="UmiCTB1" xml:space="preserve">
+    <value>Part 2 - Umineko Chiru</value>
+  </data>
+  <data name="UmiCTB2" xml:space="preserve">
+    <value>~Scattering~</value>
+  </data>
+  <data name="UmiHTB1" xml:space="preserve">
+    <value>Part 4 - Umineko Hane</value>
+  </data>
+  <data name="UmiHTB2" xml:space="preserve">
+    <value>~Feathers~</value>
+  </data>
+  <data name="UmiQTB1" xml:space="preserve">
+    <value>Part 1 - Umineko no Naku Koro ni</value>
+  </data>
+  <data name="UmiQTB2" xml:space="preserve">
+    <value>~Question~</value>
+  </data>
+  <data name="UmiSTB1" xml:space="preserve">
+    <value>Part 5 - Umineko Saku</value>
+  </data>
+  <data name="UmiSTB2" xml:space="preserve">
+    <value>~Bloom~</value>
+  </data>
+  <data name="UmiTTB1" xml:space="preserve">
+    <value>Part 3 - Umineko Tsubasa</value>
+  </data>
+  <data name="UmiTTB2" xml:space="preserve">
+    <value>~Wings~</value>
+  </data>
+  <data name="UnknownError" xml:space="preserve">
+    <value>Error: Can't start game due to unknown error.</value>
+  </data>
+  <data name="UnknownErrorTitle" xml:space="preserve">
+    <value>Can't start game</value>
   </data>
 </root>

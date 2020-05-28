@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LaunchernoNakuKoroni.Properties {
+namespace LaunchernoNakuKoroniJa.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace LaunchernoNakuKoroni.Properties {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("LaunchernoNakuKoroni.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("LaunchernoNakuKoroniJa.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -64,7 +64,7 @@ namespace LaunchernoNakuKoroni.Properties {
         ///   Looks up a localized string similar to Error: Game couldn&apos;t be found at the existing path.
         ///
         ///Please check if the path is correct in
-        ///Launcher no Naku Koro ni.exe.config..
+        ///Launcher no Naku Koro ni (Ja).exe.config..
         /// </summary>
         public static string CantFindGame {
             get {
@@ -83,7 +83,7 @@ namespace LaunchernoNakuKoroni.Properties {
         
         /// <summary>
         ///   Looks up a localized string similar to Error: Can&apos;t find game&apos;s path in
-        ///Launcher no Naku Koro ni.exe.config!
+        ///Launcher no Naku Koro ni (Ja).exe.config!
         ///
         ///Please make sure it is properly defined..
         /// </summary>
@@ -112,7 +112,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ~For You, the Replaceable Ones~.
+        ///   Looks up a localized string similar to ~代わりのいる君たちへ~.
         /// </summary>
         public static string Cic1TB2 {
             get {
@@ -130,7 +130,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ~Coming soon~.
+        ///   Looks up a localized string similar to ~近日公開~.
         /// </summary>
         public static string Cic2TB2 {
             get {
@@ -148,7 +148,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ~Coming soon~.
+        ///   Looks up a localized string similar to ~近日公開~.
         /// </summary>
         public static string Cic3TB2 {
             get {
@@ -166,7 +166,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ~Coming soon~.
+        ///   Looks up a localized string similar to ~近日公開~.
         /// </summary>
         public static string Cic4TB2 {
             get {
@@ -175,7 +175,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Part 5 - Meakashi-hen.
+        ///   Looks up a localized string similar to 第5章.
         /// </summary>
         public static string HigA1TB1 {
             get {
@@ -184,7 +184,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ~Eye Opening Chapter~.
+        ///   Looks up a localized string similar to 目明し編.
         /// </summary>
         public static string HigA1TB2 {
             get {
@@ -193,7 +193,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Part 6 - Tsumihoroboshi-hen.
+        ///   Looks up a localized string similar to 第6章.
         /// </summary>
         public static string HigA2TB1 {
             get {
@@ -202,7 +202,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ~Atonement Chapter~.
+        ///   Looks up a localized string similar to 罪滅し編.
         /// </summary>
         public static string HigA2TB2 {
             get {
@@ -211,7 +211,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Part 7 - Minagoroshi-hen.
+        ///   Looks up a localized string similar to 第7章.
         /// </summary>
         public static string HigA3TB1 {
             get {
@@ -220,7 +220,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ~Massacre Chapter~.
+        ///   Looks up a localized string similar to 皆殺し編.
         /// </summary>
         public static string HigA3TB2 {
             get {
@@ -229,7 +229,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Part 8 - Matsuribayashi-hen.
+        ///   Looks up a localized string similar to 第8章.
         /// </summary>
         public static string HigA4TB1 {
             get {
@@ -238,7 +238,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ~Festival Accompanying Chapter~.
+        ///   Looks up a localized string similar to 祭囃し編.
         /// </summary>
         public static string HigA4TB2 {
             get {
@@ -247,7 +247,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Console Arcs.
+        ///   Looks up a localized string similar to コンソール.
         /// </summary>
         public static string HigConTB1 {
             get {
@@ -256,7 +256,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ~Matsuri, Kizuna, etc.~.
+        ///   Looks up a localized string similar to アーク.
         /// </summary>
         public static string HigConTB2 {
             get {
@@ -265,7 +265,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Part 10 - Higurashi Hō.
+        ///   Looks up a localized string similar to 第10章.
         /// </summary>
         public static string HigHouTB1 {
             get {
@@ -274,7 +274,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ~Gift~.
+        ///   Looks up a localized string similar to ひぐらしのなく頃に奉.
         /// </summary>
         public static string HigHouTB2 {
             get {
@@ -283,7 +283,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Part 1 - Onikakushi-hen.
+        ///   Looks up a localized string similar to 第1章.
         /// </summary>
         public static string HigQ1TB1 {
             get {
@@ -292,7 +292,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ~Demoned Away Chapter~.
+        ///   Looks up a localized string similar to 鬼隠し編.
         /// </summary>
         public static string HigQ1TB2 {
             get {
@@ -301,7 +301,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Part 2 - Watanagashi-hen.
+        ///   Looks up a localized string similar to 第2章.
         /// </summary>
         public static string HigQ2TB1 {
             get {
@@ -310,7 +310,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ~Cotton Drifting Chapter~.
+        ///   Looks up a localized string similar to 綿流し編.
         /// </summary>
         public static string HigQ2TB2 {
             get {
@@ -319,7 +319,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Part 3 - Tatarigoroshi-hen.
+        ///   Looks up a localized string similar to 第3章.
         /// </summary>
         public static string HigQ3TB1 {
             get {
@@ -328,7 +328,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ~Curse Killing Chapter~.
+        ///   Looks up a localized string similar to 祟殺し編.
         /// </summary>
         public static string HigQ3TB2 {
             get {
@@ -337,7 +337,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Part 4 - Himatsubushi-hen.
+        ///   Looks up a localized string similar to 第4章.
         /// </summary>
         public static string HigQ4TB1 {
             get {
@@ -346,7 +346,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ~Time Killing Chapter~.
+        ///   Looks up a localized string similar to 暇潰し編.
         /// </summary>
         public static string HigQ4TB2 {
             get {
@@ -355,7 +355,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Part 9 - Higurashi Rei.
+        ///   Looks up a localized string similar to 第9章.
         /// </summary>
         public static string HigReiTB1 {
             get {
@@ -364,7 +364,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ~Gratitudes~.
+        ///   Looks up a localized string similar to ひぐらしのなく頃に礼.
         /// </summary>
         public static string HigReiTB2 {
             get {
@@ -373,7 +373,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Launcher no Naku Koro ni.
+        ///   Looks up a localized string similar to ランチャーのなく頃に.
         /// </summary>
         public static string Title {
             get {
@@ -382,7 +382,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Umineko Saku.
+        ///   Looks up a localized string similar to うみねこのなく頃に咲.
         /// </summary>
         public static string Umi07TTB1 {
             get {
@@ -391,7 +391,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Omake Special ~07th Theater~.
+        ///   Looks up a localized string similar to オマケシナリオ『07th_theater』.
         /// </summary>
         public static string Umi07TTB2 {
             get {
@@ -400,7 +400,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Part 2 - Umineko Chiru.
+        ///   Looks up a localized string similar to 第2章.
         /// </summary>
         public static string UmiCTB1 {
             get {
@@ -409,7 +409,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ~Scattering~.
+        ///   Looks up a localized string similar to うみねこのなく頃に散.
         /// </summary>
         public static string UmiCTB2 {
             get {
@@ -418,7 +418,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Part 4 - Umineko Hane.
+        ///   Looks up a localized string similar to 第4章.
         /// </summary>
         public static string UmiHTB1 {
             get {
@@ -427,7 +427,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ~Feathers~.
+        ///   Looks up a localized string similar to うみねこのなく頃に羽.
         /// </summary>
         public static string UmiHTB2 {
             get {
@@ -436,7 +436,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Part 1 - Umineko no Naku Koro ni.
+        ///   Looks up a localized string similar to 第1章.
         /// </summary>
         public static string UmiQTB1 {
             get {
@@ -445,7 +445,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ~Question~.
+        ///   Looks up a localized string similar to うみねこのなく頃に.
         /// </summary>
         public static string UmiQTB2 {
             get {
@@ -454,7 +454,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Part 5 - Umineko Saku.
+        ///   Looks up a localized string similar to 第5章.
         /// </summary>
         public static string UmiSTB1 {
             get {
@@ -463,7 +463,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ~Bloom~.
+        ///   Looks up a localized string similar to うみねこのなく頃に咲.
         /// </summary>
         public static string UmiSTB2 {
             get {
@@ -472,7 +472,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Part 3 - Umineko Tsubasa.
+        ///   Looks up a localized string similar to 第3章.
         /// </summary>
         public static string UmiTTB1 {
             get {
@@ -481,7 +481,7 @@ namespace LaunchernoNakuKoroni.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ~Wings~.
+        ///   Looks up a localized string similar to うみねこのなく頃に翼.
         /// </summary>
         public static string UmiTTB2 {
             get {

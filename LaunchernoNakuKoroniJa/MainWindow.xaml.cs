@@ -21,7 +21,7 @@ using System.Runtime.InteropServices;
 using System.Resources;
 
 
-namespace LaunchernoNakuKoroni
+namespace LaunchernoNakuKoroniJa
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

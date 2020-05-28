@@ -117,47 +117,157 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="button_center" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\button_center.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CantFindGame" xml:space="preserve">
+    <value>Error: Game couldn't be found at the existing path.
+
+Please check if the path is correct in
+Launcher no Naku Koro ni (Ja).exe.config.</value>
   </data>
-  <data name="button_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\button_left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CantFindGameTitle" xml:space="preserve">
+    <value>Game path incorrect</value>
   </data>
-  <data name="button_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\button_right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CantFindPath" xml:space="preserve">
+    <value>Error: Can't find game's path in
+Launcher no Naku Koro ni (Ja).exe.config!
+
+Please make sure it is properly defined.</value>
   </data>
-  <data name="cic_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cic_bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CantFindPathTitle" xml:space="preserve">
+    <value>Game not in app settings</value>
   </data>
-  <data name="cic_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cic_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="UnknownError" xml:space="preserve">
+    <value>Error: Can't start game due to unknown error.</value>
   </data>
-  <data name="cic_logo_ja" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cic_logo_ja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="UnknownErrorTitle" xml:space="preserve">
+    <value>Can't start game</value>
   </data>
-  <data name="hig_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hig_bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Cic1TB1" xml:space="preserve">
+    <value>Phase 1</value>
   </data>
-  <data name="hig_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hig_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Cic1TB2" xml:space="preserve">
+    <value>~代わりのいる君たちへ~</value>
   </data>
-  <data name="hig_logo_ja" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hig_logo_ja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Cic2TB1" xml:space="preserve">
+    <value>Phase 2</value>
   </data>
-  <data name="icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Cic2TB2" xml:space="preserve">
+    <value>~近日公開~</value>
   </data>
-  <data name="transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Cic3TB1" xml:space="preserve">
+    <value>Phase 3</value>
   </data>
-  <data name="umi_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\umi_bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Cic3TB2" xml:space="preserve">
+    <value>~近日公開~</value>
   </data>
-  <data name="umi_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\umi_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Cic4TB1" xml:space="preserve">
+    <value>Phase 4</value>
   </data>
-  <data name="umi_logo_ja" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\umi_logo_ja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Cic4TB2" xml:space="preserve">
+    <value>~近日公開~</value>
+  </data>
+  <data name="HigA1TB1" xml:space="preserve">
+    <value>第5章</value>
+  </data>
+  <data name="HigA1TB2" xml:space="preserve">
+    <value>目明し編</value>
+  </data>
+  <data name="HigA2TB1" xml:space="preserve">
+    <value>第6章</value>
+  </data>
+  <data name="HigA2TB2" xml:space="preserve">
+    <value>罪滅し編</value>
+  </data>
+  <data name="HigA3TB1" xml:space="preserve">
+    <value>第7章</value>
+  </data>
+  <data name="HigA3TB2" xml:space="preserve">
+    <value>皆殺し編</value>
+  </data>
+  <data name="HigA4TB1" xml:space="preserve">
+    <value>第8章</value>
+  </data>
+  <data name="HigA4TB2" xml:space="preserve">
+    <value>祭囃し編</value>
+  </data>
+  <data name="HigConTB1" xml:space="preserve">
+    <value>コンソール</value>
+  </data>
+  <data name="HigConTB2" xml:space="preserve">
+    <value>アーク</value>
+  </data>
+  <data name="HigHouTB1" xml:space="preserve">
+    <value>第10章</value>
+  </data>
+  <data name="HigHouTB2" xml:space="preserve">
+    <value>ひぐらしのなく頃に奉</value>
+  </data>
+  <data name="HigQ1TB1" xml:space="preserve">
+    <value>第1章</value>
+  </data>
+  <data name="HigQ1TB2" xml:space="preserve">
+    <value>鬼隠し編</value>
+  </data>
+  <data name="HigQ2TB1" xml:space="preserve">
+    <value>第2章</value>
+  </data>
+  <data name="HigQ2TB2" xml:space="preserve">
+    <value>綿流し編</value>
+  </data>
+  <data name="HigQ3TB1" xml:space="preserve">
+    <value>第3章</value>
+  </data>
+  <data name="HigQ3TB2" xml:space="preserve">
+    <value>祟殺し編</value>
+  </data>
+  <data name="HigQ4TB1" xml:space="preserve">
+    <value>第4章</value>
+  </data>
+  <data name="HigQ4TB2" xml:space="preserve">
+    <value>暇潰し編</value>
+  </data>
+  <data name="HigReiTB1" xml:space="preserve">
+    <value>第9章</value>
+  </data>
+  <data name="HigReiTB2" xml:space="preserve">
+    <value>ひぐらしのなく頃に礼</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>ランチャーのなく頃に</value>
+  </data>
+  <data name="Umi07TTB1" xml:space="preserve">
+    <value>うみねこのなく頃に咲</value>
+  </data>
+  <data name="Umi07TTB2" xml:space="preserve">
+    <value>オマケシナリオ『07th_theater』</value>
+  </data>
+  <data name="UmiCTB1" xml:space="preserve">
+    <value>第2章</value>
+  </data>
+  <data name="UmiCTB2" xml:space="preserve">
+    <value>うみねこのなく頃に散</value>
+  </data>
+  <data name="UmiHTB1" xml:space="preserve">
+    <value>第4章</value>
+  </data>
+  <data name="UmiHTB2" xml:space="preserve">
+    <value>うみねこのなく頃に羽</value>
+  </data>
+  <data name="UmiQTB1" xml:space="preserve">
+    <value>第1章</value>
+  </data>
+  <data name="UmiQTB2" xml:space="preserve">
+    <value>うみねこのなく頃に</value>
+  </data>
+  <data name="UmiSTB1" xml:space="preserve">
+    <value>第5章</value>
+  </data>
+  <data name="UmiSTB2" xml:space="preserve">
+    <value>うみねこのなく頃に咲</value>
+  </data>
+  <data name="UmiTTB1" xml:space="preserve">
+    <value>第3章</value>
+  </data>
+  <data name="UmiTTB2" xml:space="preserve">
+    <value>うみねこのなく頃に翼</value>
   </data>
 </root>
