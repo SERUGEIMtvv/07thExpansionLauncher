@@ -38,7 +38,7 @@ namespace LaunchernoNakuKoroni
             string path = ConfigurationManager.AppSettings[gameName];
             string path2 = ConfigurationManager.AppSettings[gameParams];
             ///check if the first string is empty and complain if it is
-            if (path == null)
+            if (path == "")
             {
                 MessageBox.Show(Properties.Resources.CantFindPath, Properties.Resources.CantFindPathTitle);
                 return;
@@ -51,20 +51,22 @@ namespace LaunchernoNakuKoroni
             }
             try
             {
-                ///start the Locale Emulator and the requested game as its parameter
-                Process.Start(path, path2);
                 ///if the second parameter is empty, consider the first string as the game itself
                 ///and start it without any parameters
-                if (path2 == null)
+                if (path2 == "")
                 {
                     Process.Start(path);
+                    return;
                 }
                 ///check if the path in the second string is correct and complain if it isn't
-                if (path2 != null && !System.IO.File.Exists(path2))
+                if (path2 != "" & !System.IO.File.Exists(path2))
                 {
                     MessageBox.Show(Properties.Resources.CantFindGame, Properties.Resources.CantFindGameTitle);
                     return;
                 }
+                ///start the Locale Emulator and the requested game as its parameter
+                Process.Start(path, path2);
+                return;
             }
             ///complain at anything weird
             catch (Exception)
